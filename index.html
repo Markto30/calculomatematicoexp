@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Matemática</title>
+    <link href="style.css " rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h4>SOMA ENTRE NÚMEROS</h4>
+    <input class="editar" type="number" name="numb1" id="numb1">
+    <strong>+</strong>
+    <input class="editar" type="number" name="numb2" id="numb2">
+    <input id="botao" type="button" value="soma" onclick="somar()">
+    
+    <h4>SUBTRAÇÃO ENTRE NÚMEROS</h4>
+    <input class="editar" type="number" name="numb11" id="numb11">
+    <strong>-</strong>
+    <input class="editar" type="number" name="numb22" id="numb22">
+    <input id="botao" type="button" value="subtrair" onclick="subtrair()">
+
+    <h4>MULTIPLICAÇÃO ENTRE NÚMEROS</h4>
+    <input class="editar" type="number" name="numb111" id="numb111">
+    <strong>*</strong>
+    <input class="editar" type="number" name="numb222" id="numb222">
+    <input id="botao" type="button" value="multiplicação" onclick="multiplicar()">
+
+    <h4>DIVISÃO ENTRE NÚMEROS</h4>
+    <input class="editar" type="number" name="numb1111" id="numb1111">
+    <strong>/</strong>
+    <input class="editar" type="number" name="numb2222" id="numb2222">
+    <input id="botao" type="button" value="divisão" onclick="dividir()">
+    <h3 id="res">Resultado:</h3>
+
+    <div id="observacao">
+    <h2>Observação:</h2>
+    <p>
+        Para calcular exponenciação, basta colocar após o número "e+0...", <spam id="resposta">EX: 7.252521e+05.</spam>
+    </p>
+    </div>
+
+</body>
+</html>

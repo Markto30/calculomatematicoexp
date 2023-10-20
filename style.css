@@ -1,0 +1,37 @@
+body{
+    background-color: #aadf;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#res{
+    background-color: rgb(91, 91, 187);
+    margin-left: 50px;
+    margin-right: 600px;
+    border-radius: 5px;
+    border: solid;
+    border-color: blue;
+}
+#botao{
+    border-radius: 7px;
+    border-color: blue;
+}
+#resposta{
+    font-weight: bolder;
+}
+#observacao{
+    background-color: yellow;
+    border-radius: 5px;
+    margin-right: 500px;
+    border: solid;
+    border-style: double;
+    border-width: 5px;
+}
+#botao:hover{
+    background-color: rgba(69, 69, 213, 0.701);
+    color:aliceblue;
+    
+}
+.editar{
+    border: solid;
+    border-radius: 5px;
+    border-style: unset;
+}
